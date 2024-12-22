@@ -1,0 +1,113 @@
+[[keyboard.bindings]]
+action = "Quit"
+key = "W"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Command"
+
+[[keyboard.bindings]]
+#action = "CreateNewWindow"
+# Tab is only for MacOS
+action = "CreateNewTab"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOH"
+key = "Left"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001BOF"
+key = "Right"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B\u007F"
+key = "Back"
+mods = "Alt"
+
+
+[general]
+live_config_reload = true
+import = [
+    #"~/.config/alacritty/themes/alacritty_0_12.toml"
+    "~/.config/alacritty/themes/github_dark_dimmed.toml"
+]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor.style]
+shape = "Beam"
+
+[font]
+size = 18.0
+
+[font.bold]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "ExtraBold"
+
+[font.bold_italic]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "ExtraBold Italic"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 8
+
+[scrolling]
+history = 100000
+multiplier = 4
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ''',│`|:"' ()[]{}<>'''
+
+[window]
+startup_mode = "Maximized"
+#decorations = "full"
+#decorations = "transparent"
+option_as_alt = "Both"
+
+[window.dimensions]
+columns = 106
+lines = 25
+
+[window.padding]
+x = 22
+y = 26
+
+[keyboard]
