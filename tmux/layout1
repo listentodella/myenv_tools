@@ -1,0 +1,6 @@
+selectp -t 0 # select the first (0) pane
+splitw -h -p 50 # split it into two halves
+
+selectp -t 0 # select the first pane
+splitw -v -p 50 # split it into two halves
+selectp -t 1 # go back to the second pane(the biggest one now)
